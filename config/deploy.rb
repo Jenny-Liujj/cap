@@ -1,6 +1,6 @@
 lock '3.4.0'
 
-set :application, 'my_app_name'
+set :application, 'superprueba'
 set :repo_url, 'https://liu7899@github.com/liu7899/cap.git'
 
 ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
