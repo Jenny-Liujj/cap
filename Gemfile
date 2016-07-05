@@ -1,4 +1,4 @@
-source 'https://ruby.taobao.org'
+source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -34,7 +34,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :production do
   gem 'pg'
-  gem 'sqlite3'
 end
 
 group :development, :test do
@@ -48,10 +47,11 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-  gem 'capistrano','~> 3.4.1'
+  gem 'capistrano'
   gem 'capistrano-rails'
   gem 'capistrano-bundler'
   # gem 'capistrano-rbenv'
   gem 'capistrano-rvm'
   gem 'capistrano-passenger'
 end
+
