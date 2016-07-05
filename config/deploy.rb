@@ -1,4 +1,4 @@
-lock '3.5.0'
+lock '3.4.0'
 
 set :application, 'my_app_name'
 set :repo_url, 'https://liu7899@github.com/liu7899/cap.git'
